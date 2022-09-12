@@ -1,0 +1,1063 @@
+ 08/20/21 19:41:43 Database gtSI_4cyl_Ba_10515efo created
+
+Flexlm License: (GTpowerX/31-dec-2030) 
+GT-SUITE workstation: (ATABAK) 
+License Server: (Atabak)
+vend: (All Users)
+
+ ==============================================================================
+ GT-SUITE - GAMMA TECHNOLOGIES
+ ------------------------------------------------------------------------------
+ License  :  GT-POWER
+ Version  :  2016
+ Build #  :  3.0000
+ Platform :  Windows 64 bit
+ Parallel :  2 MAX OpenMP Threads
+ Date     :  20-AUG-21  Time: 19:41:43
+ File     :  C:\Users\ASUS\Desktop\SI_4cyl_Basic.dat
+ ==============================================================================
+  
+ INFO  Shared object versions used:
+   C:\PROGRA~2\GTI\bin\win64\GTIusr2016_64_mp.dll            3.0000
+   C:\PROGRA~2\GTI\v2016\GTsuite\bin\win64\gtstoredp.dll     3.0000
+   C:\PROGRA~2\GTI\v2016\GTsuite\bin\win64\gtmt.dll          3.0000
+   (Note the user dll/so build number need not match the solver)
+  
+ INFO Allocating Object/Part memory...
+
+                                                                              Fuel Heating Value  Stoich. Ratio
+   GTI-STYLE SPECIES       C       H       O       N           S          Ar    (@298.15K) MJ/kg      (std air)
+        indolene-vap    7.93    14.8    0.00    0.00        0.00        0.00               43.95          14.50    
+ INFO Allocating special part array memory...
+    
+  LEGEND: Four-Cylinder SI Engine Example                                                                                           
+    
+ INFO Part defining periodic process: Engine
+  
+ INFO Total number of pipe sub-volumes =  154
+ INFO Total number of flow volumes     =  232
+  
+   
+*INFO: Estimated animation file size is  5 MB.
+   
+  
+ INFO Total Number of Parts =  346
+  
+  
+  Case Number:        1 of  2
+  Case Setup Number:  1
+  
+  
+ MAIN DRIVER: Case# 1  Period# 1  Freq/RPM=100. 6000.  Time=0.0
+  
+   Cylinder  1 starting cycle 1
+ Flow Step       20, dt =   2.343E-05, t =  4.76661E-04
+ Flow Step       40, dt =   2.301E-05, t =  9.37757E-04
+ Flow Step       60, dt =   2.296E-05, t =  1.39856E-03
+ Flow Step       80, dt =   2.231E-05, t =  1.85131E-03
+   Cylinder  3 starting cycle 1
+   Cylinder  4 starting cycle 1
+   Cylinder  2 starting cycle 1
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.095    8.97   42.63    17.1   0.0   0.0909
+     Cylinder-02:    1.106   12.24   75.43    23.5   2.8   0.0000
+     Cylinder-03:    0.636   15.13   70.02    57.9   0.0   0.0822
+     Cylinder-04:    1.018   13.62   68.45    26.3   3.1   0.1122
+     ENGINE: IMEP =     12.49 bar, VOLEF = 0.964 VOLEFm = 0.964
+  
+    Flow timesteps/cycle=966, average time step =    0.745 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  57.5%
+      mufHS0109:  40.8%
+  
+ MAIN DRIVER: Case# 1  Period# 2  Freq/RPM=100. 6000.  Time=2.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.071   14.81   74.54    33.6   2.6   0.1018
+     Cylinder-02:    1.049   14.46   72.94    32.5   3.3   0.0992
+     Cylinder-03:    1.048   14.67   71.57    39.3   2.9   0.0706
+     Cylinder-04:    1.036   14.10   71.16    28.8   3.2   0.1003
+     ENGINE: IMEP =     14.51 bar, VOLEF = 1.051 VOLEFm = 1.051
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =    72.3369 at con : 24
+     NO     Pressure    (%)   =     8.1894 at cmp : ExPort-3A
+     NO     Temperature (K)   =   181.0114 at cmp : CatCon
+   RLT STEADY STATE:
+     NO       RLT1      (%) =999999.9000 pavr:ManPipe-02=0.969086 bar
+    Flow timesteps/cycle=1067, average time step =    0.675 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  53.1%
+      mufHS0109:  45.5%
+  
+ MAIN DRIVER: Case# 1  Period# 3  Freq/RPM=100. 6000.  Time=4.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.069   14.82   74.32    32.7   3.2   0.0830
+     Cylinder-02:    1.043   14.28   72.48    31.2   3.2   0.0860
+     Cylinder-03:    1.018   14.06   70.81    32.7   3.0   0.0842
+     Cylinder-04:    1.043   14.30   72.24    31.2   3.2   0.0903
+     ENGINE: IMEP =     14.36 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     8.1793 at con : OrificeConFilter-4
+     NO     Pressure    (%)   =     1.7828 at cmp : ExPort-2A
+     NO     Temperature (K)   =    69.4495 at cmp : ExPort-3A
+   RLT STEADY STATE:
+    YES 1of2  RLT1      (%) =     0.0765 pavr:ManPipe-02=0.969828 bar
+    Flow timesteps/cycle=1092, average time step =    0.659 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  57.1%
+      mufHS0109:  41.6%
+  
+ MAIN DRIVER: Case# 1  Period# 4  Freq/RPM=100. 6000.  Time=6.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.071   14.73   74.12    32.2   3.1   0.0857
+     Cylinder-02:    1.047   14.32   72.77    31.3   3.1   0.0896
+     Cylinder-03:    1.021   13.97   70.77    31.0   3.2   0.0897
+     Cylinder-04:    1.035   14.19   71.75    31.3   3.1   0.0895
+     ENGINE: IMEP =     14.30 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     8.0443 at con : ExitOrifice
+     NO     Pressure    (%)   =     1.9239 at cmp : ExPipe2
+     NO     Temperature (K)   =    42.5649 at cmp : mufJA0110
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0322 pavr:ManPipe-02=0.97014 bar
+    Flow timesteps/cycle=1089, average time step =    0.661 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  60.3%
+      mufHS0109:  38.4%
+  
+ MAIN DRIVER: Case# 1  Period# 5  Freq/RPM=100. 6000.  Time=8.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.072   14.76   74.24    32.3   3.0   0.0863
+     Cylinder-02:    1.047   14.35   72.80    31.4   3.1   0.0892
+     Cylinder-03:    1.020   13.94   70.67    30.5   3.2   0.0918
+     Cylinder-04:    1.034   14.18   71.65    31.1   3.1   0.0901
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.044 VOLEFm = 1.044
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     3.9431 at con : ExitOrifice
+    YES     Pressure    (%)   =     0.7927 at cmp : ExPort-3A
+     NO     Temperature (K)   =    41.7460 at cmp : mufJA0109
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0075 pavr:ManPipe-02=0.970068 bar
+    Flow timesteps/cycle=1081, average time step =    0.666 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  61.7%
+      mufHS0109:  37.1%
+  
+ MAIN DRIVER: Case# 1  Period# 6  Freq/RPM=100. 6000.  Time=0.1
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.79   74.31    32.3   3.0   0.0863
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0890
+     Cylinder-03:    1.020   13.93   70.63    30.5   3.2   0.0924
+     Cylinder-04:    1.034   14.17   71.61    31.0   3.0   0.0905
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.8663 at con : OrificeConFilter-1
+    YES     Pressure    (%)   =     0.3615 at cmp : ExPort-3A
+     NO     Temperature (K)   =    50.2701 at cmp : mufJA0112
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0073 pavr:ManPipe-02=0.969997 bar
+    Flow timesteps/cycle=1080, average time step =    0.667 deg
+  
+ MAIN DRIVER: Case# 1  Period# 7  Freq/RPM=100. 6000.  Time=0.12
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.34    32.3   3.0   0.0862
+     Cylinder-02:    1.048   14.36   72.80    31.4   3.1   0.0890
+     Cylinder-03:    1.020   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.60    31.0   3.0   0.0906
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.5808 at con : OrificeConFilter-1
+    YES     Pressure    (%)   =     0.1609 at cmp : catconn1
+     NO     Temperature (K)   =    51.0571 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0013 pavr:ManPipe-02=0.969984 bar
+    Flow timesteps/cycle=1076, average time step =    0.669 deg
+  
+ MAIN DRIVER: Case# 1  Period# 8  Freq/RPM=100. 6000.  Time=0.14
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.35    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0890
+     Cylinder-03:    1.020   13.93   70.64    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.59    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.4356 at con : OrificeConFilter-1
+    YES     Pressure    (%)   =     0.0946 at cmp : Collector3
+     NO     Temperature (K)   =    23.3734 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0002 pavr:ManPipe-02=0.969986 bar
+    Flow timesteps/cycle=1073, average time step =    0.671 deg
+  
+ MAIN DRIVER: Case# 1  Period# 9  Freq/RPM=100. 6000.  Time=0.16
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0890
+     Cylinder-03:    1.020   13.93   70.64    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.59    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.3127 at con : OrificeConFilter-1
+    YES     Pressure    (%)   =     0.0250 at cmp : mufMS0105
+     NO     Temperature (K)   =     9.6715 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0004 pavr:ManPipe-02=0.96999 bar
+    Flow timesteps/cycle=1073, average time step =    0.671 deg
+  
+ MAIN DRIVER: Case# 1  Period# 10  Freq/RPM=100. 6000.  Time=0.18
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.020   13.93   70.64    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.59    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.2110 at con : muf120
+    YES     Pressure    (%)   =     0.0223 at cmp : mufMS0105
+     NO     Temperature (K)   =     6.9131 at cmp : mufJA0110
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0001 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1072, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 11  Freq/RPM=100. 6000.  Time=0.2
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.64    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.59    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.1386 at con : muf120
+    YES     Pressure    (%)   =     0.0136 at cmp : mufMS0104
+     NO     Temperature (K)   =     8.0285 at cmp : mufJA0109
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969988 bar
+    Flow timesteps/cycle=1072, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 12  Freq/RPM=100. 6000.  Time=0.22
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.64    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.59    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0890 at con : ExitOrifice
+    YES     Pressure    (%)   =     0.0079 at cmp : mufMS0102
+     NO     Temperature (K)   =     2.8467 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0001 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 13  Freq/RPM=100. 6000.  Time=0.24
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0583 at con : orif23
+    YES     Pressure    (%)   =     0.0028 at cmp : mufHS0110
+     NO     Temperature (K)   =     6.9641 at cmp : mufJA0112
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0001 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 14  Freq/RPM=100. 6000.  Time=0.26
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.4   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0416 at con : orif23
+    YES     Pressure    (%)   =     0.0017 at cmp : InPort-1A
+     NO     Temperature (K)   =     8.5015 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 15  Freq/RPM=100. 6000.  Time=0.28
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0249 at con : muf145
+    YES     Pressure    (%)   =     0.0015 at cmp : InPort-1A
+     NO     Temperature (K)   =     2.3253 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 16  Freq/RPM=100. 6000.  Time=0.3
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0149 at con : orif3
+    YES     Pressure    (%)   =     0.0016 at cmp : InPort-1A
+     NO     Temperature (K)   =     2.1767 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 17  Freq/RPM=100. 6000.  Time=0.32
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0162 at con : orif14
+    YES     Pressure    (%)   =     0.0035 at cmp : QW1
+     NO     Temperature (K)   =     2.0399 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 18  Freq/RPM=100. 6000.  Time=0.34
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0150 at con : orif3
+    YES     Pressure    (%)   =     0.0011 at cmp : QW1
+     NO     Temperature (K)   =     1.9145 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 19  Freq/RPM=100. 6000.  Time=0.36
+  
+ Flow Step    20000, dt =   1.872E-05, t =  0.37424
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0185 at con : orif3
+    YES     Pressure    (%)   =     0.0008 at cmp : InPort-1A
+     NO     Temperature (K)   =     1.7990 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 20  Freq/RPM=100. 6000.  Time=0.38
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0190 at con : orif14
+    YES     Pressure    (%)   =     0.0007 at cmp : ExPort-3A
+     NO     Temperature (K)   =     1.6932 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 21  Freq/RPM=100. 6000.  Time=0.4
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0196 at con : orif3
+    YES     Pressure    (%)   =     0.0009 at cmp : InPort-1A
+     NO     Temperature (K)   =     1.5955 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 22  Freq/RPM=100. 6000.  Time=0.42
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0181 at con : orif14
+    YES     Pressure    (%)   =     0.0007 at cmp : ExRunner-03
+     NO     Temperature (K)   =     1.5055 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 23  Freq/RPM=100. 6000.  Time=0.44
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0194 at con : orif3
+    YES     Pressure    (%)   =     0.0004 at cmp : InPort-1A
+     NO     Temperature (K)   =     1.4228 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 24  Freq/RPM=100. 6000.  Time=0.46
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0179 at con : orif14
+    YES     Pressure    (%)   =     0.0004 at cmp : InPort-1A
+     NO     Temperature (K)   =     1.3462 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 25  Freq/RPM=100. 6000.  Time=0.48
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0190 at con : orif3
+    YES     Pressure    (%)   =     0.0007 at cmp : InPort-1A
+     NO     Temperature (K)   =     1.2754 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 26  Freq/RPM=100. 6000.  Time=0.5
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0178 at con : orif14
+    YES     Pressure    (%)   =     0.0005 at cmp : ExPort-2A
+     NO     Temperature (K)   =     1.2096 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 27  Freq/RPM=100. 6000.  Time=0.52
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0155 at con : orif3
+    YES     Pressure    (%)   =     0.0004 at cmp : QW1
+     NO     Temperature (K)   =     1.1490 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 28  Freq/RPM=100. 6000.  Time=0.54
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0163 at con : orif14
+    YES     Pressure    (%)   =     0.0003 at cmp : QW1
+     NO     Temperature (K)   =     1.0925 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 29  Freq/RPM=100. 6000.  Time=0.56
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0152 at con : orif14
+    YES     Pressure    (%)   =     0.0003 at cmp : QW1
+     NO     Temperature (K)   =     1.0400 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 30  Freq/RPM=100. 6000.  Time=0.58
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+FLOW STEADY STATE, SOLUTION CLUSTER [1 (Column 1)]: steady-state reached in period =    30
+    YES 1   Mass Flow   (%)   =     0.0157 at con : orif14
+    YES 1   Pressure    (%)   =     0.0002 at cmp : QW1
+    YES 1   Temperature (K)   =     0.9910 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+  
+ MAIN DRIVER: Case# 1  Period# 31  Freq/RPM=100. 6000.  Time=0.6
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+FLOW STEADY STATE, SOLUTION CLUSTER [1 (Column 1)]: steady-state reached in period =    31
+    YES 2   Mass Flow   (%)   =     0.0163 at con : orif14
+    YES 2   Pressure    (%)   =     0.0006 at cmp : Helmholtz
+    YES 2   Temperature (K)   =     0.9454 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+ INFO Requested number of periods reset to =  32
+  
+ MAIN DRIVER: Case# 1  Period# 32  Freq/RPM=100. 6000.  Time=0.62
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    1.073   14.80   74.36    32.3   2.9   0.0862
+     Cylinder-02:    1.047   14.36   72.80    31.4   3.1   0.0891
+     Cylinder-03:    1.019   13.93   70.63    30.4   3.2   0.0925
+     Cylinder-04:    1.034   14.17   71.58    31.0   3.0   0.0907
+     ENGINE: IMEP =     14.31 bar, VOLEF = 1.043 VOLEFm = 1.043
+  
+   FLOW STEADY STATE:
+FLOW STEADY STATE, SOLUTION CLUSTER [1 (Column 1)]: steady-state reached in period =    32
+    YES     Mass Flow   (%)   =     0.0155 at con : orif14
+    YES     Pressure    (%)   =     0.0002 at cmp : QW1
+    YES     Temperature (K)   =     0.9027 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.969989 bar
+    Flow timesteps/cycle=1071, average time step =    0.672 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  66.3%
+      mufHS0109:  32.6%
+  STABILITY:    --- no flow instabilities detected ---
+  
+ INFO Number of flow time steps in this case = 34232
+  TIME STEP:    restricted by the following flow components (%) :
+     mufHS0213:  66.3%                                                                                                            
+     mufHS0109:  32.6%                                                                                                            
+ ==========================================================
+  Approximate CPU breakdown by cluster
+ ==========================================================
+ Cluster Circuit Type      Name                       % CPU
+ ----------------------------------------------------------
+       1       1  Flow     Flow 1 (Column 1)          92.04
+       1       1  ODE/Mech ODE 1 (Column 1)            7.95
+       "       2  ODE/Mech Controls (Column 1)          "
+       -       -  -        Thermal                     0.01
+ ==========================================================
+  ...STORING ANIMATION DATA
+      20% Complete
+      40% Complete
+      60% Complete
+      80% Complete
+     100% Complete
+  
+  CASE    COMPUTATIONS:  Elapsed Time: 000:00:43.51
+0
+ INFO Allocating Object/Part memory...
+
+                                                                              Fuel Heating Value  Stoich. Ratio
+   GTI-STYLE SPECIES       C       H       O       N           S          Ar    (@298.15K) MJ/kg      (std air)
+        indolene-vap    7.93    14.8    0.00    0.00        0.00        0.00               43.95          14.50    
+ INFO Allocating special part array memory...
+    
+  LEGEND: Four-Cylinder SI Engine Example                                                                                           
+    
+ INFO Part defining periodic process: Engine
+  
+ INFO Total number of pipe sub-volumes =  154
+ INFO Total number of flow volumes     =  232
+  
+   
+*INFO: Estimated animation file size is  5 MB.
+   
+  
+ INFO Total Number of Parts =  346
+  
+  
+  Case Number:        2 of  2
+  Case Setup Number:  5
+  
+  
+ MAIN DRIVER: Case# 2  Period# 1  Freq/RPM=66.6667 4000.  Time=0.0
+  
+   Cylinder  1 starting cycle 1
+ Flow Step       20, dt =   1.888E-05, t =  3.76949E-04
+ Flow Step       40, dt =   1.894E-05, t =  7.55159E-04
+ Flow Step       60, dt =   1.878E-05, t =  1.13278E-03
+ Flow Step       80, dt =   1.860E-05, t =  1.50630E-03
+   Cylinder  3 starting cycle 1
+   Cylinder  4 starting cycle 1
+   Cylinder  2 starting cycle 1
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.881   15.13   74.06    38.3   2.9   0.0862
+     Cylinder-02:    0.860   12.49   57.94    30.9   3.1   0.0891
+     Cylinder-03:    1.111   12.78   62.15    22.1   3.2   0.0777
+     Cylinder-04:    0.808   10.98   53.99    26.7   3.6   0.1121
+     ENGINE: IMEP =     12.84 bar, VOLEF = 0.915 VOLEFm = 0.915
+  
+   RLT STEADY STATE:
+     NO       RLT1      (%) =     2.0806 pavr:ManPipe-02=0.990599 bar
+    Flow timesteps/cycle=1533, average time step =    0.470 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  70.5%
+      mufHS0109:  28.7%
+  
+ MAIN DRIVER: Case# 2  Period# 2  Freq/RPM=66.6667 4000.  Time=3.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.973   12.33   65.06    27.5   3.3   0.0921
+     Cylinder-02:    0.898   12.55   66.45    31.7   3.1   0.0986
+     Cylinder-03:    0.937   12.21   65.76    27.0   3.5   0.1203
+     Cylinder-04:    0.948   13.61   70.67    37.0   3.7   0.0776
+     ENGINE: IMEP =     12.68 bar, VOLEF = 0.939 VOLEFm = 0.939
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =    48.3341 at con : muf126
+     NO     Pressure    (%)   =     7.6883 at cmp : InPort-1A
+     NO     Temperature (K)   =   105.3910 at cmp : ExPort-3A
+   RLT STEADY STATE:
+    YES 1of2  RLT1      (%) =     0.0875 pavr:ManPipe-02=0.991466 bar
+    Flow timesteps/cycle=1443, average time step =    0.499 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  62.7%
+      mufHS0109:  36.5%
+  
+ MAIN DRIVER: Case# 2  Period# 3  Freq/RPM=66.6667 4000.  Time=6.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.983   13.65   72.54    34.0   3.5   0.0958
+     Cylinder-02:    0.909   12.79   66.84    31.2   2.8   0.0907
+     Cylinder-03:    0.919   12.88   67.41    32.1   3.1   0.0911
+     Cylinder-04:    0.972   13.86   72.30    34.5   3.2   0.0825
+     ENGINE: IMEP =     13.29 bar, VOLEF = 0.946 VOLEFm = 0.946
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     9.2211 at con : 23
+     NO     Pressure    (%)   =     2.1493 at cmp : ExPort-4A
+     NO     Temperature (K)   =    56.1348 at cmp : ExPort-3A
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.1139 pavr:ManPipe-02=0.990339 bar
+    Flow timesteps/cycle=1454, average time step =    0.495 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  59.8%
+      mufHS0109:  39.4%
+  
+ MAIN DRIVER: Case# 2  Period# 4  Freq/RPM=66.6667 4000.  Time=9.E-02
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.984   14.05   73.12    35.1   3.2   0.0821
+     Cylinder-02:    0.910   12.85   66.97    32.0   2.8   0.0934
+     Cylinder-03:    0.922   13.01   67.84    32.5   2.8   0.0889
+     Cylinder-04:    0.979   13.98   72.78    34.6   3.2   0.0826
+     ENGINE: IMEP =     13.47 bar, VOLEF = 0.949 VOLEFm = 0.949
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     2.3320 at con : muf110
+    YES     Pressure    (%)   =     0.6953 at cmp : InPort-4A
+     NO     Temperature (K)   =    34.1543 at cmp : ExPort-1A
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0656 pavr:ManPipe-02=0.990988 bar
+    Flow timesteps/cycle=1447, average time step =    0.498 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  58.9%
+      mufHS0109:  40.2%
+  
+ MAIN DRIVER: Case# 2  Period# 5  Freq/RPM=66.6667 4000.  Time=0.12
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.08    35.1   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.11    32.2   2.8   0.0905
+     Cylinder-03:    0.923   13.07   68.08    32.6   2.7   0.0886
+     Cylinder-04:    0.980   14.00   72.79    34.9   3.2   0.0817
+     ENGINE: IMEP =     13.51 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     1.2878 at con : muf136
+    YES     Pressure    (%)   =     0.1428 at cmp : InPort-4A
+     NO     Temperature (K)   =    11.8075 at cmp : mufMS0105
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0060 pavr:ManPipe-02=0.991048 bar
+    Flow timesteps/cycle=1439, average time step =    0.500 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  58.7%
+      mufHS0109:  40.4%
+  
+ MAIN DRIVER: Case# 2  Period# 6  Freq/RPM=66.6667 4000.  Time=0.15
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.11    35.2   3.0   0.0811
+     Cylinder-02:    0.913   12.91   67.13    32.3   2.8   0.0897
+     Cylinder-03:    0.924   13.09   68.14    32.7   2.7   0.0881
+     Cylinder-04:    0.980   14.01   72.79    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     1.4824 at con : muf133
+    YES     Pressure    (%)   =     0.0946 at cmp : ExPipe2
+     NO     Temperature (K)   =     8.4074 at cmp : mufJA0110
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0044 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1432, average time step =    0.503 deg
+  
+ MAIN DRIVER: Case# 2  Period# 7  Freq/RPM=66.6667 4000.  Time=0.18
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.91   67.13    32.3   2.8   0.0897
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.7   0.0880
+     Cylinder-04:    0.980   14.01   72.81    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     1.2960 at con : ExitOrifice
+    YES     Pressure    (%)   =     0.1069 at cmp : ExPort-4A
+     NO     Temperature (K)   =     8.3971 at cmp : mufJA0109
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1431, average time step =    0.503 deg
+  
+ MAIN DRIVER: Case# 2  Period# 8  Freq/RPM=66.6667 4000.  Time=0.21
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.91   67.13    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.7   0.0880
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.7201 at con : ExitOrifice
+    YES     Pressure    (%)   =     0.0662 at cmp : ExPort-4A
+     NO     Temperature (K)   =     8.0519 at cmp : mufJA0109
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0002 pavr:ManPipe-02=0.991006 bar
+    Flow timesteps/cycle=1428, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 9  Freq/RPM=66.6667 4000.  Time=0.24
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.7   0.0880
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+     NO     Mass Flow   (%)   =     0.2753 at con : ExitOrifice
+    YES     Pressure    (%)   =     0.0310 at cmp : ExPort-4A
+     NO     Temperature (K)   =     7.9317 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0002 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1427, average time step =    0.505 deg
+  
+ MAIN DRIVER: Case# 2  Period# 10  Freq/RPM=66.6667 4000.  Time=0.27
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.7   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0802 at con : muf139
+    YES     Pressure    (%)   =     0.0122 at cmp : ExPort-4A
+     NO     Temperature (K)   =     7.0440 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1428, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 11  Freq/RPM=66.6667 4000.  Time=0.3
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.7   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0490 at con : OrificeConFilter-2
+    YES     Pressure    (%)   =     0.0070 at cmp : ExRunner-03
+     NO     Temperature (K)   =     4.5640 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 12  Freq/RPM=66.6667 4000.  Time=0.33
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0609 at con : OrificeConFilter-2
+    YES     Pressure    (%)   =     0.0016 at cmp : ExPort-4A
+     NO     Temperature (K)   =     2.1379 at cmp : mufJA0113
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 13  Freq/RPM=66.6667 4000.  Time=0.36
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.1159 at con : orif31
+    YES     Pressure    (%)   =     0.0265 at cmp : mufHS0109
+     NO     Temperature (K)   =     1.4163 at cmp : mufMS0103
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1430, average time step =    0.503 deg
+  
+ MAIN DRIVER: Case# 2  Period# 14  Freq/RPM=66.6667 4000.  Time=0.39
+  
+ Flow Step    20000, dt =   2.110E-05, t =  0.41619
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0549 at con : OrificeConFilter-2
+    YES     Pressure    (%)   =     0.0013 at cmp : InPort-4A
+     NO     Temperature (K)   =     1.3142 at cmp : mufMS0103
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1430, average time step =    0.503 deg
+  
+ MAIN DRIVER: Case# 2  Period# 15  Freq/RPM=66.6667 4000.  Time=0.42
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0439 at con : OrificeConFilter-1
+    YES     Pressure    (%)   =     0.0272 at cmp : mufHS0109
+     NO     Temperature (K)   =     1.2174 at cmp : mufMS0103
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 16  Freq/RPM=66.6667 4000.  Time=0.45
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0377 at con : OrificeConFilter-2
+    YES     Pressure    (%)   =     0.0013 at cmp : QW1
+     NO     Temperature (K)   =     1.1282 at cmp : mufMS0103
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991005 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 17  Freq/RPM=66.6667 4000.  Time=0.48
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.12    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+    YES     Mass Flow   (%)   =     0.0263 at con : orif23
+    YES     Pressure    (%)   =     0.0006 at cmp : mufMS0102
+     NO     Temperature (K)   =     1.0470 at cmp : mufMS0103
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 18  Freq/RPM=66.6667 4000.  Time=0.51
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.13    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+FLOW STEADY STATE, SOLUTION CLUSTER [1 (Column 1)]: steady-state reached in period =    18
+    YES 1   Mass Flow   (%)   =     0.0463 at con : OrificeConFilter-3
+    YES 1   Pressure    (%)   =     0.0005 at cmp : mufMS0102
+    YES 1   Temperature (K)   =     0.9732 at cmp : mufMS0103
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+  
+ MAIN DRIVER: Case# 2  Period# 19  Freq/RPM=66.6667 4000.  Time=0.54
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.13    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+FLOW STEADY STATE, SOLUTION CLUSTER [1 (Column 1)]: steady-state reached in period =    19
+    YES 2   Mass Flow   (%)   =     0.0312 at con : orif12
+    YES 2   Pressure    (%)   =     0.0006 at cmp : AirBox_2_1_2
+    YES 2   Temperature (K)   =     0.9387 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+ INFO Requested number of periods reset to =  20
+  
+ MAIN DRIVER: Case# 2  Period# 20  Freq/RPM=66.6667 4000.  Time=0.57
+  
+                     VOLEF   IMEP    Pmax     Ieff   REScs FAeff
+     Cylinder-01:    0.985   14.07   73.10    35.2   3.1   0.0810
+     Cylinder-02:    0.912   12.90   67.13    32.3   2.8   0.0896
+     Cylinder-03:    0.925   13.09   68.16    32.7   2.8   0.0879
+     Cylinder-04:    0.980   14.01   72.80    35.0   3.2   0.0815
+     ENGINE: IMEP =     13.52 bar, VOLEF = 0.950 VOLEFm = 0.950
+  
+   FLOW STEADY STATE:
+FLOW STEADY STATE, SOLUTION CLUSTER [1 (Column 1)]: steady-state reached in period =    20
+    YES     Mass Flow   (%)   =     0.0152 at con : orif12
+    YES     Pressure    (%)   =     0.0006 at cmp : ExPipe
+    YES     Temperature (K)   =     0.9112 at cmp : mufMS0102
+   RLT STEADY STATE:
+    YES       RLT1      (%) =     0.0000 pavr:ManPipe-02=0.991004 bar
+    Flow timesteps/cycle=1429, average time step =    0.504 deg
+    Time step restricted by the following flow components 
+      mufHS0213:  55.7%
+      mufHS0109:  43.3%
+  STABILITY:    --- no flow instabilities detected ---
+  
+ INFO Number of flow time steps in this case = 28754
+  TIME STEP:    restricted by the following flow components (%) :
+     mufHS0213:  55.7%                                                                                                            
+     mufHS0109:  43.3%                                                                                                            
+ ==========================================================
+  Approximate CPU breakdown by cluster
+ ==========================================================
+ Cluster Circuit Type      Name                       % CPU
+ ----------------------------------------------------------
+       1       1  Flow     Flow 1 (Column 1)          92.46
+       1       1  ODE/Mech ODE 1 (Column 1)            7.54
+       "       2  ODE/Mech Controls (Column 1)          "
+       -       -  -        Thermal                     0.00
+ ==========================================================
+  ...STORING ANIMATION DATA
+      20% Complete
+      40% Complete
+      60% Complete
+      80% Complete
+     100% Complete
+  
+  CASE    COMPUTATIONS:  Elapsed Time: 000:00:34.21
+  FINAL   COMPUTATIONS:  Elapsed Time: 000:01:19.82
+  
+ END OF RUN
+ 08/20/21 19:43:08 Creating results (.gdx) file...
+ 08/20/21 19:43:12 SI_4cyl_Basic.gdx created.
